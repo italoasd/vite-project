@@ -1,0 +1,62 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.navBar {
+  background-color: rgba(11, 11, 11, 0.773);
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 4em;
+  padding: 2em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.navLinks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+.navLinks *{
+  margin-right: 30px;
+  color: aliceblue;
+}
+.navLinks *:hover{
+  color: rgb(140, 37, 236);
+}
+
+/* CARD */
+
+.card{
+  background-color: rgb(18, 16, 19);
+  height: 470px;
+  width: 400px;
+  margin: 0 50px;
+  border-radius: 12px;
+}
+.card img{
+  height: 150px;
+  border-radius: 100%;
+}
+.top-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px;
+}
+.top-card h2{
+  margin-right: 80px;
+}
+.body-card{
+  margin: 70px 20px;
+}
+.body-card p{
+  font-size: 18px;
+}
